@@ -35,6 +35,9 @@ sudo apt-get install linux-headers-$(uname -r)
 ```
 
 ## Project Structure
-
-
+```text
+/
+├── 📑 [helloworld.c](/helloworld.c)
+└── 📑 [Makefile](/Makefile)
+```
 
