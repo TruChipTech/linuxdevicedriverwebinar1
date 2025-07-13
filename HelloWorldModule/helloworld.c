@@ -11,7 +11,6 @@ int __init example1_init(void) {
 } 
 
 void __exit example1_stop(void) { 
-//void __exit cleanup_module(void) {
   printk(KERN_ALERT "Exiting Testing 1\n"); 
 } 
 
