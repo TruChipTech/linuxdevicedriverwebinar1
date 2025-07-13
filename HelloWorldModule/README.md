@@ -4,11 +4,7 @@
 1. [Introduction](#introduction)
 2. [Prerequisites](#prerequisites)
 3. [Project Structure](#project-structure)
-5. [Building Instructions](#building-instructions)
-6. [Testing and Verification](#testing-and-verification)
-8. [Troubleshooting](#troubleshooting)
-9. [Advanced Topics](#advanced-topics)
-10. [References](#references)
+4. [Building Instructions](#building-instructions)
 
 ## Introduction
 This project demonstrates a basic Linux kernel module implementation. The module performs simple initialization and cleanup operations, serving as a foundation for understanding kernel module development.
@@ -35,9 +31,24 @@ sudo apt-get install linux-headers-$(uname -r)
 ```
 
 ## Project Structure
-```text
-/
-├── 📑 [helloworld.c](/helloworld.c)
-└── 📑 [Makefile](/Makefile)
-```
+/  
+├── 📑 [helloworld.c](/helloworld.c)  
+└── 📑 [Makefile](/Makefile)  
 
+
+## Building Instructions
+
+```text
+Step 1: Build Module
+$ make
+
+Step 2: Load Module
+$ sudo insmod helloworld.ko
+
+Step 3: Verify Module
+$ lsmod | grep helloworld
+$ dmesg | tail
+
+Step 4: Unload Module
+$ sudo rmmod helloworld
+```

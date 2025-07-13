@@ -31,9 +31,7 @@
 ## Getting Started
 Each folder contains detailed README files with:
 - Build instructions
-- Installation steps
 - Testing procedures
-- Code documentation
 
 ## Prerequisites
 - Linux kernel development environment
