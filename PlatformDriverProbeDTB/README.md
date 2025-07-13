@@ -35,8 +35,8 @@ sudo apt-get install device-tree-compiler
 
 ## Project Structure
 /  
-├── 📑 [platformdev.c](/platformdev.c)
-├── 📑 [platformdev.dts](/platformdev.dts)
+├── 📑 [platformdev.c](/platformdev.c)  
+├── 📑 [platformdev.dts](/platformdev.dts)  
 └── 📑 [Makefile](/Makefile)  
 
 
